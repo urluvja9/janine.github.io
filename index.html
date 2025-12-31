@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="toggle" onclick="toggleTheme()">🌙</button>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="card home">
+    <img src="nine.jpg" alt="Formal Photo" class="profile-pic">
+    <!-- Short Bio / Tagline --> 
+     <h2>Information Technology Student | Learning and Growing in Tech</h2> 
+     <!-- Introduction Text --> 
+      <p class="intro"> Welcome to my personal website. This portfolio highlights who I am, 
+        what I am learning, and the skills I am developing as an IT student. It reflects my journey 
+        as a beginner in the field of technology. </p> 
+        <!-- Quote / Extra Detail --> 
+        <p class="quote">“Every expert was once a beginner.”</p> 
+        <!-- Alternative option --> 
+         <!-- <p class="quote">This site contains my background, interests, and basic skills in IT.</p> --> 
+        </div> 
+    </section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      <b>Educational Background:</b> I am currently a student taking up a BS in Information 
+      Technology. My studies focus on understanding computer systems, basic programming, and technology concepts.
+    </p>
+
+    <p>
+      <b>Technical Interests:</b> I am interested in learning how websites work, how software is created, 
+      and how technology helps solve real-world problems.
+    </p>
+
+    <h3>About Myself / Personality</h3>
+    <p>
+      I am eager to learn new things and improve my skills step by step. 
+      I may still be a beginner, but I am motivated to grow and gain more experience. 
+      I approach challenges with patience and persistence, always striving to adapt and improve.
+    </p>
+
+    <h3>Hobbies</h3>
+    <ul>
+      <li>Exploring new software and applications</li>
+      <li>Watching beginner tech tutorials</li>
+      <li>Practicing simple coding tasks</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="card">
+    <h2>Skills</h2>
+
+    <h3>Programming Languages</h3>
+    <ul>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>C</li>
+      <li>JavaScript (introductory knowledge)</li>
+    </ul>
+
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Problem-Solving</li>
+      <li>Teamwork</li>
+      <li>Collaboration</li>
+      <li>Adaptability</li>
+      <li>Communication</li>
+      <li>Time Management</li>
+    </ul>
+
+    <h3>Software & Tools</h3>
+    <ul>
+      <li>GitHub</li>
+      <li>VS Code</li>
+      <li>Linux (basic command-line interface)</li>
+      <li>Microsoft 365 (Word, Excel, PowerPoint)</li>
+      <li>Windows 10/11</li>
+    </ul>
+
+    <h3>Technical Areas</h3>
+    <ul>
+      <li>Foundational knowledge of Web Development (frontend)</li>
+      <li>Basic understanding of networking principles (TCP/IP)</li>
+      <li>Introductory SQL queries</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="card project">
+   <h2>📌 Project 1: Gym Membership Management System</h2>
+    <img src="gym.jpg" alt="Gym Membership System" class="project-img">
+    <!-- Description --> 
+     <p> A desktop-based system used to manage gym members. It allows the admin to add, view, 
+        and delete member information such as name, gender, contact details, and join date. 
+    </p> 
+    <!-- Role & Contributions --> 
+     <h3>👤 My Role & Contributions</h3> 
+     <ul> 
+        <li>Designed the user interface</li> 
+        <li>Created the member registration form</li> 
+        <li>Helped implement save and reset functions</li> 
+        <li>Assisted in testing the system</li> 
+    </ul>
+    <!-- Tools --> 
+     <h3>🛠️ Tools / Languages Used</h3> 
+     <ul> 
+        <li>Python</li> 
+        <li>Tkinter (GUI)</li> 
+        <li>SQLite (Database)</li> 
+    </ul> 
+</div>
+
+  <div class="card project">
+    <h2>📌 Project 2: Personal Hobby Website</h2>
+    <img src="hobby.jpg" alt="Hobby Website" class="project-img">
+    <!-- Description --> 
+     <p> A simple personal website that shows hobbies and creative content. It includes a homepage, 
+        sections for information, and a clean visual design. 
+    </p> 
+    <!-- Role --> 
+     <h3>👤 My Role</h3> 
+     <ul> 
+        <li>Designed the website layout</li> 
+        <li>Edited content and images</li> 
+        <li>Organized sections of the page</li> 
+    </ul>
+    <!-- Tools --> 
+     <h3>🛠️ Tools / Languages</h3> 
+     <ul> 
+        <li>HTML</li> 
+        <li>CSS</li> 
+        <li>Website Builder (Wix)</li> 
+    </ul> 
+</div> 
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <p>Email: janinealvarez141@gmail.com</p>
+    <p> <a href="https://github.com/urluvja9" target="_blank">GitHub</a> • 
+        <a href="https://www.facebook.com/janine.alvarezandriano.9" target="_blank">Facebook</a> 
+    </p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
